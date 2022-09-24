@@ -37,10 +37,12 @@ body {
     margin-left: 250px;
     margin-right: 250px;
     background-color: yellow;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 .menu_navegacao {
-    float: left;
+    float: right;
     width: 280px;
     margin-left: 10px;
 }
@@ -68,4 +70,55 @@ body {
 .menu_navegacao ul a {
     color: red;
     text-decoration: none;
+}
+
+.conteudo {
+    float: right;
+
+}
+
+#image_frankfurt {
+    max-width: 800px;
+    height: auto;
+}
+
+.Frankfurt_photo {
+    width: 800px;
+    height: auto;
+    background-color: rgba(245, 242, 65, 0.658);
+    text-align: center;
+    padding: 18px;
+
+    font-family: cursive;
+    box-shadow: 5px 5px 15px 3px #ff000038;
+    border: 1px SOLID #333;
+    border-radius: 8px;
+
+}
+
+.conteudo_02 {
+    float: right;
+}
+
+.historia {
+    text-align: center;
+    width: 600px;
+    margin-left: 70px;
+    background-color: #f1e365;
+    color: red;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+p {
+    display: block;
+    text-indent: 4ch;
+    width: 550px;
+    color: white;
+    text-align: justify;
+    margin-left: 95px;
+}
+
+#put_red {
+    color: rgb(230, 136, 136);
 }
