@@ -179,6 +179,56 @@ p {
     transform: scale(1.05);
 }
 
+.conteudo_04 {
+    float: left;
+}
+
+.curiosidade {
+    text-align: center;
+    width: 600px;
+    margin-left: 70px;
+    background-color: #f1e365;
+    color: red;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+#p3 {
+    width: 550px;
+    margin-left: 95px;
+}
+
+.foto_03 {
+    float: right;
+}
+
+#image_frankfurt_03 {
+    max-width: 800px;
+    height: auto;
+}
+
+.Frankfurt_photo_03 {
+    width: 700px;
+    height: auto;
+    background-color: rgba(245, 242, 65, 0.658);
+    text-align: center;
+    padding: 18px;
+    margin-top: -480px;
+    margin-left: 95px;
+
+    font-family: cursive;
+    box-shadow: 5px 5px 15px 3px #ff000038;
+    border: 1px SOLID #333;
+    border-radius: 8px;
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+}
+
+.Frankfurt_photo_03:hover {
+    opacity: 0.33;
+    transform: scale(1.05);
+}
+
 #put_red {
     color: rgb(230, 136, 136);
 }
