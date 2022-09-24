@@ -1,0 +1,70 @@
+body {
+    background-color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#brazao_right {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#brazao_right_down {
+    position: fixed;
+    top: 850px;
+    right: 0;
+}
+
+#brazao_left {
+    position: fixed;
+    top: 0;
+    right: 1;
+}
+
+#brazao_left_down {
+    position: fixed;
+    top: 850px;
+    right: 1;
+}
+
+#titulo {
+    color: rgb(214, 6, 6);
+    text-align: center;
+    font-size: 65px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: yellow;
+}
+
+.menu_navegacao {
+    float: left;
+    width: 280px;
+}
+
+.menu_navegacao li {
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 20px;
+    background-color: red;
+
+}
+
+.menu_navegacao ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu_navegacao ul li {
+    background-color: yellow;
+    transition: 2s;
+}
+
+.menu_navegacao ul a {
+    color: red;
+    text-decoration: none;
+}
