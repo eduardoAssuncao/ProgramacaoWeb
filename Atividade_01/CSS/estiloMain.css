@@ -93,7 +93,13 @@ body {
     box-shadow: 5px 5px 15px 3px #ff000038;
     border: 1px SOLID #333;
     border-radius: 8px;
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+}
 
+.Frankfurt_photo:hover {
+    opacity: 0.33;
+    transform: scale(1.05);
 }
 
 .conteudo_02 {
