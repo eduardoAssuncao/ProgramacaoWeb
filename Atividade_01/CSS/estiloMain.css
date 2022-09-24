@@ -103,7 +103,7 @@ body {
 }
 
 .conteudo_02 {
-    float: right;
+    float: left;
 }
 
 .historia {
@@ -119,10 +119,32 @@ body {
 p {
     display: block;
     text-indent: 4ch;
-    width: 550px;
-    color: white;
     text-align: justify;
+    color: white;
+}
+
+#p1 {
+    width: 550px;
     margin-left: 95px;
+}
+
+.conteudo_03 {
+    float: left;
+}
+
+.economia {
+    text-align: center;
+    width: 600px;
+    margin-left: 960px;
+    background-color: #f1e365;
+    color: red;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+#p2 {
+    width: 550px;
+    margin-left: 985px;
 }
 
 #put_red {
