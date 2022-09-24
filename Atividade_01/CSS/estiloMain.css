@@ -181,12 +181,13 @@ p {
 
 .conteudo_04 {
     float: left;
+    margin-top: 20px;
 }
 
 .curiosidade {
     text-align: center;
     width: 600px;
-    margin-left: 70px;
+    margin-left: -780px;
     background-color: #f1e365;
     color: red;
     border-top-right-radius: 50px;
@@ -195,15 +196,27 @@ p {
 
 #p3 {
     width: 550px;
-    margin-left: 95px;
+    margin-left: -760px;
+}
+
+li {
+    color: white;
+    text-align: justify;
+}
+
+#l1 {
+    width: 550px;
+    margin-left: -800px;
 }
 
 .foto_03 {
     float: right;
+    margin-top: -80px;
+    margin-right: 300px;
 }
 
 #image_frankfurt_03 {
-    max-width: 800px;
+    max-width: 700px;
     height: auto;
 }
 
@@ -231,4 +244,10 @@ p {
 
 #put_red {
     color: rgb(230, 136, 136);
+}
+
+.foto_04 {
+    float: right;
+    margin-top: 100px;
+    margin-right: -300px;
 }
