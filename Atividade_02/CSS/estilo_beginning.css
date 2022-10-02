@@ -1,0 +1,70 @@
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.headline--b-margin-small {
+    margin-bottom: 0.5em;
+}
+
+.headline--light {
+    font-weight: 100;
+}
+
+.headline--centered {
+    text-align: center;
+}
+
+.headline {
+    color: #2f5572;
+    font-size: 2.875rem;
+}
+
+.headline strong {
+    font-weight: 400;
+}
+
+.headline--narrow {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline--small {
+    font-size: 1.875rem;
+}
+
+.headline--orange {
+    color: #d59541;
+}
+
+.generic-content-container p {
+    font-weight: 300;
+    line-height: 1.65;
+    margin: 0 0 1.8rem;
+    font-size: 1.125rem;
+}
+
+.row--gutters>div {
+    padding-right: 65px;
+}
+
+.row__medium-8--smaller {
+    width: 63%;
+}
+
+.row__medium-8 {
+    float: left;
+    width: 66.66%;
+}
+
+.row--gutters {
+    margin-right: -65px;
+}
+
+.page-section {
+    padding: 4.5rem 0;
+}
