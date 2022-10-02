@@ -1,0 +1,32 @@
+.page-section--all {
+    background-color: antiquewhite;
+}
+
+.section-title--blue {
+    color: #2f5572;
+    font-size: 3.75em;
+}
+
+.testimonial__photo {
+    border-radius: 80px;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto -80px;
+    position: relative;
+}
+
+.testimonial_first p {
+    padding-top: -15rem;
+    text-align: center;
+}
+
+.testimonial_second p {
+    padding-top: -15rem;
+    text-align: center;
+}
+
+.testimonial_last p {
+    padding-top: -15rem;
+    text-align: center;
+}
