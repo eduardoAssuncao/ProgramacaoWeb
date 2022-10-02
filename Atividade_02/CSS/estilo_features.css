@@ -5,4 +5,26 @@
 
 .section-title {
     text-align: center;
+    margin-bottom: 3rem;
+    text-decoration: underline;
+}
+
+.icon--star {
+    margin-bottom: -1rem;
+}
+
+.rain {
+    text-align: center;
+}
+
+.globe {
+    text-align: center;
+}
+
+.wifi {
+    text-align: center;
+}
+
+.fire {
+    text-align: center;
 }
