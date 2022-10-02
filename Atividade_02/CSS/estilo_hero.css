@@ -1,3 +1,8 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
 .large-hero {
     border-bottom: 10px solid #2f5572;
     position: relative;
@@ -67,12 +72,4 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     font-size: 1.875rem;
-}
-
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
