@@ -6,6 +6,20 @@ h3 {
     margin-inline-end: 0px;
 }
 
+.wrapper .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.wrapper--b-margin {
+    margin-bottom: 3.875rem;
+    margin-bottom: 1rem;
+}
+
+.wrapper--medium {
+    max-width: 976px;
+}
+
 .headline--b-margin-small {
     margin-bottom: 0.5em;
 }
@@ -39,6 +53,10 @@ h3 {
 
 .headline--orange {
     color: #d59541;
+}
+
+.headline--b-margin-large {
+    margin-bottom: 1.6em;
 }
 
 .generic-content-container p {
