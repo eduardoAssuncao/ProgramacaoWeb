@@ -29,6 +29,7 @@ ul {
     width: 100%;
     z-index: 2;
     transition: background-color .3s ease-out;
+    background-color: rgba(47, 85, 114, .3);
 }
 
 .wrapper {
@@ -48,10 +49,9 @@ ul {
 .site-header_logo {
     position: absolute;
     background-color: #2f5572;
-    padding: 25px 36px;
+    padding: 10px 36px;
     top: 0;
     transform-origin: 50% 0;
-    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
 }
 
 /*.site-header__logo__graphic {
@@ -60,8 +60,11 @@ ul {
 
 .icon--clear-view-escapes {
     width: 144.4px;
-    height: 61.53px;
+    height: 45.53px;
     background-position: 0 0;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
 }
 
 .site-header__menu-icon {
@@ -97,6 +100,15 @@ ul {
     text-decoration: none;
     padding: 0.75rem 1.2rem;
     display: inline-block;
+}
+
+.btn--large {
+    font-size: 1.25rem;
+    padding: 1.1rem 1.9rem;
+}
+
+.btn--orange {
+    background-color: #d59541;
 }
 
 .primary-nav--pull-right {
