@@ -6,6 +6,18 @@ h3 {
     margin-inline-end: 0px;
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 .wrapper .wrapper {
     padding-left: 0;
     padding-right: 0;
@@ -87,14 +99,6 @@ h3 {
     padding: 4.5rem 0;
 }
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
 /*second part of hero*/
 .row--gutters {
     margin-right: -65px;
@@ -132,8 +136,4 @@ p {
     font-weight: 300;
     line-height: 1.65;
     margin: 0 0 1.8rem;
-}
-
-* {
-    box-sizing: border-box;
 }

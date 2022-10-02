@@ -3,12 +3,6 @@ body {
     /*color: #333;*/
 }
 
-/*html {
-    line-height: 1.15;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}*/
-
 div {
     display: block;
 }
@@ -54,12 +48,7 @@ ul {
     transform-origin: 50% 0;
 }
 
-/*.site-header__logo__graphic {
-    text-indent: -9999px;
-}*/
-
-.icon--clear-view-escapes {
-    /*mudar nome para text-header*/
+.text-header {
     width: 144.4px;
     height: 45.53px;
     background-position: 0 0;
@@ -73,7 +62,7 @@ ul {
     width: 20px;
     height: 19px;
     position: absolute;
-    z-index: 10;
+    /*z-index: 10;*/
     top: 10px;
     right: 10px;
     cursor: pointer;
