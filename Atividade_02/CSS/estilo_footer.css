@@ -1,0 +1,9 @@
+.site-footer {
+    text-align: center;
+    background-color: rgba(114, 114, 223, 0.404);
+}
+
+.btn_orange_footer {
+    font-weight: bold;
+    background-color: orange;
+}
