@@ -41,38 +41,58 @@
 
   <div class="bg-image p-5 shadow-1-strong rounded mb-5 text-white"
     style="background-image: url('Image/book_tree.png'); height: 89vh;">
-    <div class="container text-dark">
-      <div class="row mt-5 ">
-        <div class="card col-md-6 offset-md-3 offset-md-3">
-          <h3 class="text-center">Cadastrar Livro</h3>
+    <div class="container text-light">
+      <div class="row mt-5">
+        <div class="card col-md-6 offset-md-3 offset-md-3 bg-dark">
+          <h3 class="text-center mt-5">Cadastrar Livro</h3>
           <div class="card-body">
             <form>
               <div class="form-group">
-                <label> Nome completo: </label>
-                <input placeholder="Eduardo Assunção..." name="nomeCompleto" class="form-control" />
+                <label> Nome do livro: </label>
+                <input placeholder="A maldição de..." name="nomeLivro" class="form-control" />
               </div>
               <div class="form-group">
-                <label> Identidade ou CPF: </label>
-                <input placeholder="6190775..." name="identidade" class="form-control" />
+                <label> Nome da editora: </label>
+                <input placeholder="Editora Apehl..." name="editora" class="form-control" />
               </div>
               <div class="form-group">
-                <label> Data de nascimento: </label>
-                <input type="date" name="dataNascimento" class="form-control" />
+                <label> Ano de publicação: </label>
+                <input placeholder="1997" name="anoPublicacao" class="form-control" />
               </div>
               <div class="form-group">
-                <label> Endereço completo: </label>
-                <input placeholder="Rua X, Casa B..." name="endereco" class="form-control" />
+                <label> ISBN: </label>
+                <input placeholder="..." name="isbn" class="form-control" />
               </div>
               <div class="form-group">
-                <label> Telefone: </label>
-                <input placeholder="989883432..." name="telefone" class="form-control" />
+                <label> Autor do livro: </label>
+                <input placeholder="Isemov..." name="autor" class="form-control" />
               </div>
               <div class="form-group">
-                <label> E-mail: </label>
-                <input placeholder="eduardo@..." name="email" class="form-control" />
+                <label> Assunto: </label>
+                <input placeholder="Tecnologia..." name="assunto" class="form-control" />
               </div>
-              <button class="btn btn-success mt-3">Save</button>
-              <button class="btn btn-danger mt-3">Cancel</button>
+              <div class="form-group">
+                <label> Quantidade: </label>
+                <input placeholder="45..." name="quantidade" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label> Para: </label>
+                <select id="para" class="form-control">
+                  <option selected>Escolha...</option>
+                  <option>Compra</option>
+                  <option>Aluguel</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label> Nacionalidade: </label>
+                <select id="tipo" class="form-control">
+                  <option selected>Escolha...</option>
+                  <option>Nacional</option>
+                  <option>Estrangeiro</option>
+                </select>
+              </div>
+              <button class="btn btn-success mt-3">Salvar</button>
+              <button class="btn btn-danger mt-3">Cancelar</button>
             </form>
           </div>
         </div>
