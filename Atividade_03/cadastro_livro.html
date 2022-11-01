@@ -39,33 +39,55 @@
     </div>
   </nav>
 
-  <div>
-    <div class="container">
-      <div class="row mt-5">
+  <div class="bg-image p-5 shadow-1-strong rounded mb-5 text-white"
+    style="background-image: url('Image/book_tree.png'); height: 89vh;">
+    <div class="container text-dark">
+      <div class="row mt-5 ">
         <div class="card col-md-6 offset-md-3 offset-md-3">
           <h3 class="text-center">Cadastrar Livro</h3>
           <div class="card-body">
             <form>
               <div class="form-group">
-                <label> First Name: </label>
-                <input placeholder="First Name" name="firstName" class="form-control" />
+                <label> Nome completo: </label>
+                <input placeholder="Eduardo Assunção..." name="nomeCompleto" class="form-control" />
               </div>
               <div class="form-group">
-                <label> Last Name: </label>
-                <input placeholder="Last Name" name="lastName" class="form-control" />
+                <label> Identidade ou CPF: </label>
+                <input placeholder="6190775..." name="identidade" class="form-control" />
               </div>
               <div class="form-group">
-                <label> Email Id: </label>
-                <input placeholder="Email Address" name="emailId" class="form-control" />
+                <label> Data de nascimento: </label>
+                <input type="date" name="dataNascimento" class="form-control" />
               </div>
-              <button class="btn btn-success">Save</button>
-              <button class="btn btn-danger">Cancel</button>
+              <div class="form-group">
+                <label> Endereço completo: </label>
+                <input placeholder="Rua X, Casa B..." name="endereco" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label> Telefone: </label>
+                <input placeholder="989883432..." name="telefone" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label> E-mail: </label>
+                <input placeholder="eduardo@..." name="email" class="form-control" />
+              </div>
+              <button class="btn btn-success mt-3">Save</button>
+              <button class="btn btn-danger mt-3">Cancel</button>
             </form>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <footer class="fixed-bottom bg-dark">
+    <!-- Copyright -->
+    <div class="text-light text-center p-3" style="background-color: rgba(24, 23, 23, 0.2);">
+      © 2022 Copyright:
+      <a class="text-light" href="#">BookStore.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
