@@ -1,0 +1,7 @@
+#banner{
+    top:0;
+    right: 0;
+    position: fixed;
+    transform: translate(0px, 58px);
+    height: 5%;
+}
