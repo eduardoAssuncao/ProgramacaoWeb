@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Calculator Program in JavaScript </h1>
+    <div class="formstyle">
+        <form name="form">
+            <input id="text-view" class="textview" name="textview">
+        </form>
+        <table>
+            <tr>
+                <td> <input class="btn" type="button" value="C" onclick="apagar()"> </td>
+                <td> <input class="btn" type="button" value="B" onclick="backspace()"> </td>
+                <td> <input class="btn" type="button" value="/" onclick="inserir('/')"> </td>
+                <td> <input class="btn" type="button" value="x" onclick="inserir('*')"> </td>
+            </tr>
+
+            <tr>
+                <td> <input class="btn" type="button" value="7" onclick="inserir(7)"> </td>
+                <td> <input class="btn" type="button" value="8" onclick="inserir(8)"> </td>
+                <td> <input class="btn" type="button" value="9" onclick="inserir(9)"> </td>
+                <td> <input class="btn" type="button" value="-" onclick="inserir('-')"> </td>
+            </tr>
+
+            <tr>
+                <td> <input class="btn" type="button" value="4" onclick="inserir(4)"> </td>
+                <td> <input class="btn" type="button" value="5" onclick="inserir(5)"> </td>
+                <td> <input class="btn" type="button" value="6" onclick="inserir(6)"> </td>
+                <td> <input class="btn" type="button" value="+" onclick="inserir('+')"> </td>
+            </tr>
+
+            <tr>
+                <td> <input class="btn" type="button" value="1" onclick="inserir(1)"> </td>
+                <td> <input class="btn" type="button" value="2" onclick="inserir(2)"> </td>
+                <td> <input class="btn" type="button" value="3" onclick="inserir(3)"> </td>
+                <td rowspan=5> <input class="btn" style="height: 110px" type="button" value="=" onclick="igual()">
+                </td>
+            </tr>
+            <tr>
+                <td colspan=2> <input class="btn" style="width: 106px" type="button" value="0" onclick="inserir(0)">
+                </td>
+                <td> <input class="btn" type="button" value="." onclick="inserir('.')"> </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="JS/q5.js"></script>
+</body>
+
+</html>
