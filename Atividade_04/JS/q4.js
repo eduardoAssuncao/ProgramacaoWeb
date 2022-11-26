@@ -58,3 +58,7 @@ function calcular(){
 
     alert("Nome do cliente: " + name + "\nBebida: " + option_value + "\nDoces e Salgados: " + option2_value + "\nValor: R$" + buyPrice);
 }
+
+function limpar(){
+    document.querySelector(".form").reset();
+}
