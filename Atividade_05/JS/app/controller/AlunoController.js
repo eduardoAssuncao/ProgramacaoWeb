@@ -16,7 +16,9 @@ class AlunoController {
 
         this._notaAluno = new NotaAluno();
 
-        
+        this._notificacao = new Notificacao();
+        this._notificacaoView = new NotificacaoView($('#js-notificacao-view'));
+        this._notificacaoView.update(this._notificacao);
     }
 
     adiciona(event ) {
@@ -29,7 +31,8 @@ class AlunoController {
 
         this._limpaFormulario();
 
-
+        this._notificacao.texto = `Nota ${nota.nome} foi adicionado com sucesso.`; 
+        this._notificacaoView.update(his._notificacao);
     }
 
     _criarNotaAluno() {
