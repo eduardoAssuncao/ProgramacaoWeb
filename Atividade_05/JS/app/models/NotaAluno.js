@@ -71,6 +71,18 @@ class NotaAluno {
     }
 
     get mediaGeral() {
+        let contador;
+        contador = contador + 1;
+        this._media = ((this.nota1 + this._nota2)/2);
+        if(this._media >= 70){
+            this._mediaGeral = this._media/contador;
+            return this._mediaGeral;
+        }
+        else{
+            this._media = (this._media + this._provaFinal)/2;
+            this._mediaGeral = this._media/contador;
+            return this._mediaGeral;
+        }
 
     }
 }

@@ -36,16 +36,16 @@ class AlunoView extends View {
             </tbody>
 
             <tfoot>
-                <tr>    
-                    <td colspan="3">Total Aprovados</td>
+                  
+                    <td colspan="1">Total Aprovados</td>
                     <td>${(aluno.getNotas().reduce((total, nota) =>
                         total + nota.aprovados, 0.0))}</td>    
-                </tr>
-                <tr>
-                    <td colspan="3">Total Reprovados</td>
+                    <td colspan="1">Total Reprovados</td>
                     <td>${(aluno.getNotas().reduce((total, nota) =>
-                        total + nota.reprovados, 0.0))}</td>
-                </tr>
+                            total + nota.reprovados, 0.0))}</td>
+                    <td colspan="1">Média Geral</td>
+                    <td>${(aluno.getNotas().reduce((total, nota) =>
+                        total + nota.mediaGeral, 0.0))}</td>
 
             </tfoot>
         

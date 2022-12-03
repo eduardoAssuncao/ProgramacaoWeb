@@ -31,8 +31,8 @@ class AlunoController {
 
         this._limpaFormulario();
 
-        this._notificacao.texto = `Nota ${nota.nome} foi adicionado com sucesso.`; 
-        this._notificacaoView.update(his._notificacao);
+        this._notificacao.texto = `Nota de ${nota.nome} foi adicionado com sucesso.`; 
+        this._notificacaoView.update(this._notificacao);
     }
 
     _criarNotaAluno() {
