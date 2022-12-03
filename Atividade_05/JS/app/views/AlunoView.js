@@ -6,7 +6,7 @@ class AlunoView extends View {
 
     _template(aluno ) {
         return `
-        <table class="table table-hover table-borderend">
+        <table class="table table-hover table-borderend text-white">
             <thread>
                 <tr>
                     <TH>NOME</TH>
@@ -36,11 +36,16 @@ class AlunoView extends View {
             </tbody>
 
             <tfoot>
-
-                <td colspan="3">Total Aprovados</td>
-                <td>
-                    
-                </td>
+                <tr>    
+                    <td colspan="3">Total Aprovados</td>
+                    <td>${(aluno.getNotas().reduce((total, nota) =>
+                        total + nota.aprovados, 0.0))}</td>    
+                </tr>
+                <tr>
+                    <td colspan="3">Total Reprovados</td>
+                    <td>${(aluno.getNotas().reduce((total, nota) =>
+                        total + nota.reprovados, 0.0))}</td>
+                </tr>
 
             </tfoot>
         
