@@ -44,7 +44,7 @@ class NotaAluno {
     }
 
     get situacao() {
-        if(this._media >= 70){
+        if(this._media >= 70 && this._frequencia >= 75){
             return 'Aprovado';
         }else{
             return 'Reprovado';
