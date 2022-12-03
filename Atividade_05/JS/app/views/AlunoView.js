@@ -23,16 +23,28 @@ class AlunoView extends View {
                 ${aluno.getNotas().map(nota => `
 
                     <tr>
-                        <td>$${nota.nome}</td>
-                        <td>$${nota.nota1}</td>
-                        <td>$${nota.nota2}</td>
-                        <td>$${nota.nome}</td>
-                        <td>$${nota.nome}</td>
-                        <td>$${nota.nome}</td>
-                        <td>$${nota.nome}</td>
+                        <td>${nota.nome}</td>
+                        <td>${nota.nota1}</td>
+                        <td>${nota.nota2}</td>
+                        <td>${nota.frequencia}%</td>
+                        <td>${nota.provaFinal}</td>
+                        <td>${nota.media}</td>
+                        <td>${nota.situacao}</td>
                     </tr>
 
-                `)}
+                `).join('')}
+            </tbody>
+
+            <tfoot>
+
+                <td colspan="3">Total Aprovados</td>
+                <td>
+                    
+                </td>
+
+            </tfoot>
+        
+        </table>
         `;
     }
 }
