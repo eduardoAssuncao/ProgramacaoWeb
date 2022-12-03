@@ -2,10 +2,10 @@ class NotaAluno {
 
     constructor(nome, nota1, nota2, frequencia, provaFinal, media, situacao) {
         this._nome = nome;
-        this._nota1 = nota1;
-        this._nota2 = nota2;
+        this._nota1 = parseInt(nota1);
+        this._nota2 = parseInt(nota2);
         this._frequencia = frequencia;
-        this._provaFinal = provaFinal;
+        this._provaFinal = parseInt(provaFinal);
         this._media = media;
         this._situacao = situacao;
 
@@ -33,14 +33,12 @@ class NotaAluno {
     }
 
     get media() {
-        parseInt(this._nota1, this._nota2, this._provaFinal);
-        let mediaParcial = ((this.nota1 + this._nota2)/2);
-        if(mediaParcial >= 70){
-            this._media = (this._nota1 + this._nota2)/2;
+        this._media = ((this.nota1 + this._nota2)/2);
+        if(this._media >= 70){
             return this._media;
         }
         else{
-            this._media = (this._nota1 + this._nota2 + this._provaFinal)/3;
+            this._media = (this._media + this._provaFinal)/2;
             return this._media;
         }
     }
