@@ -10,10 +10,7 @@
         valor_aluguel DECIMAL not null,
         obs TEXT,
 
-        primary key(id),
-        foreign key (id_inquilino) references cliente (id),
-        foreign key (id_imovel) references imovel (id)
+        primary key(id)
     );
 
-    --alter table locacao add constraint fk_locacao_cliente foreign key (id_inquilino) references cliente (id);
-    --alter table locacao add constraint fk_locacao_imovel foreign key (id_imovel) references imovel (id);
+    
