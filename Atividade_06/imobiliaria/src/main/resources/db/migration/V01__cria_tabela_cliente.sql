@@ -5,5 +5,6 @@
         telefone varchar(12) not null,
         email varchar(100) not null,
         nascimento Date not null,
+        
         primary key (id)
     );

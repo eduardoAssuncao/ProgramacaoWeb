@@ -1,7 +1,7 @@
     create table locacao (
         id integer not null auto_increment,
-        id_imovel integer not null,
-        id_inquilino integer not null,
+        id_imovel int not null,
+        id_inquilino int not null,
         ativo TINYINT,
         fim DATE not null,
         inicio DATE not null,
@@ -11,6 +11,9 @@
         obs TEXT,
 
         primary key(id),
-        foreign key (id_inquilino) references cliente(id_inquilino),
-        foreign key (id_imovel) references imovel(id_imovel)
+        foreign key (id_inquilino) references cliente (id),
+        foreign key (id_imovel) references imovel (id)
     );
+
+    --alter table locacao add constraint fk_locacao_cliente foreign key (id_inquilino) references cliente (id);
+    --alter table locacao add constraint fk_locacao_imovel foreign key (id_imovel) references imovel (id);
