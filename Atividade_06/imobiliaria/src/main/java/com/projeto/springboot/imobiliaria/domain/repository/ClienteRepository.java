@@ -12,10 +12,10 @@ import com.projeto.springboot.imobiliaria.domain.model.Cliente;
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 
-    Iterable<Cliente> findByName(String nome);
+    Iterable<Cliente> findByNome(String nome);
 
     Optional<Cliente> findByEmail(String email);
 
-    Page<Cliente> findByName(String nome, Pageable paginacao);
+    Page<Cliente> findByNome(String nome, Pageable paginacao);
 
 }

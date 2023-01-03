@@ -21,15 +21,21 @@ public class ClienteService {
     private final ClienteRepository repository;
 
     public Iterable<Cliente> todos() {
+
         return repository.findAll();
+
     }
 
     public Optional<Cliente> buscaPor(Integer id) {
+
         return repository.findById(id);
+
     }
 
     public Iterable<Cliente> buscaPor(String nome) {
-        return repository.findByName(nome);
+
+        return repository.findByNome(nome);
+
     }
 
     @Transactional
@@ -68,7 +74,7 @@ public class ClienteService {
 
     public Page<Cliente> buscaPor(String nome, Pageable paginacao) {
 
-        return repository.findByName(nome, paginacao);
+        return repository.findByNome(nome, paginacao);
 
     }
 }

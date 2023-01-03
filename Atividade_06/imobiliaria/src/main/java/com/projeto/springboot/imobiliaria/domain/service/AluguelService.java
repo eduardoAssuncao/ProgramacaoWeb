@@ -10,7 +10,6 @@ import com.projeto.springboot.imobiliaria.domain.model.Aluguel;
 import com.projeto.springboot.imobiliaria.domain.repository.AluguelRepository;
 
 import jakarta.transaction.Transactional;
-import lombok.AllArgsConstructor;
 
 @Service
 public class AluguelService {
@@ -24,7 +23,7 @@ public class AluguelService {
 
     }
 
-    public List<Aluguel> todos() {
+    public Iterable<Aluguel> todos() {
 
         return aluguelRepository.findAll();
 
