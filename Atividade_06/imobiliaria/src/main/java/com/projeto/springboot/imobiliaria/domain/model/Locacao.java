@@ -39,25 +39,25 @@ public class Locacao {
     @JoinColumn(name = "id_inquilino")
     Cliente cliente;
 
-    @NotBlank
+    // @NotBlank
     @Column(columnDefinition = "TINYINT", length = 1)
     private boolean ativo;
 
-    @NotBlank
+    // @NotBlank
     @DateTimeFormat(pattern = "dd/MM/yyyy")
     private Date fim;
 
-    @NotBlank
+    // @NotBlank
     @DateTimeFormat(pattern = "dd/MM/yyyy")
     private Date inicio;
 
-    @NotBlank
+    // @NotBlank
     private int vencimento;
 
-    @NotBlank
+    // @NotBlank
     private float perc_multa;
 
-    @NotBlank
+    // @NotBlank
     private float valor_aluguel;
 
     @Size(max = 200)

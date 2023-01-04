@@ -31,11 +31,11 @@ public class Aluguel {
     @JoinColumn(name = "id_locacao")
     Locacao locacao;
 
-    @NotBlank
+    // @NotBlank
     @DateTimeFormat(pattern = "dd/MM/yyyy")
     private Date vencimento;
 
-    @NotBlank
+    // @NotBlank
     private float valor_pago;
 
     @Size(max = 200)

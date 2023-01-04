@@ -25,31 +25,31 @@ public class Imovel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @NotBlank
+    // @NotBlank
     @Size(max = 15)
     private String tipo;
 
-    @NotBlank
+    // @NotBlank
     @Size(max = 100)
     private String endereco;
 
-    @NotBlank
+    // @NotBlank
     @Size(max = 8)
     private String cep;
 
-    @NotBlank
+    // @NotBlank
     private int dormitorios;
 
-    @NotBlank
+    // @NotBlank
     private int banheiros;
 
-    @NotBlank
+    // @NotBlank
     private int suites;
 
-    @NotBlank
+    // @NotBlank
     private int metragem;
 
-    @NotBlank
+    // @NotBlank
     private float valor_aluguel_sug;
 
     @Size(max = 200)
