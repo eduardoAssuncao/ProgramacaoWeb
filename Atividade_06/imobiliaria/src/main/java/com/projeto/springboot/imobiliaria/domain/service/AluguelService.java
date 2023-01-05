@@ -1,5 +1,6 @@
 package com.projeto.springboot.imobiliaria.domain.service;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,12 @@ public class AluguelService {
     public AluguelService(AluguelRepository aluguelRepository) {
 
         this.aluguelRepository = aluguelRepository;
+
+    }
+
+    public List<Aluguel> getAllAlugueis() {
+
+        return aluguelRepository.findAll();
 
     }
 

@@ -1,6 +1,7 @@
 package com.projeto.springboot.imobiliaria.api.controller;
 
 import java.net.URI;
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import com.projeto.springboot.imobiliaria.domain.model.Aluguel;
+import com.projeto.springboot.imobiliaria.domain.repository.AluguelRepository;
 import com.projeto.springboot.imobiliaria.domain.service.AluguelService;
 
 import jakarta.validation.Valid;
@@ -29,6 +31,13 @@ public class AluguelController {
     @Autowired
     public AluguelController(AluguelService aluguelService) {
         this.aluguelService = aluguelService;
+    }
+
+    @GetMapping
+    public List<Aluguel> getAllAlugueis() {
+
+        return aluguelService.getAllAlugueis();
+
     }
 
     @GetMapping("/{id}")
